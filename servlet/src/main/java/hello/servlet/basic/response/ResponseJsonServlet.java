@@ -24,7 +24,7 @@ public class ResponseJsonServlet extends HttpServlet {
         helloData.setAge(24);
 
         String result = objectMapper.writeValueAsString(helloData);
-        
+
         response.getWriter().write(result);
     }
 }
