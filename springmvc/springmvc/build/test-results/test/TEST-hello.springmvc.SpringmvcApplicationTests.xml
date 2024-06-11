@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.springmvc.SpringmvcApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-11T06:32:02" hostname="MacBook-Pro-4.local" time="0.479">
+  <properties/>
+  <testcase name="contextLoads()" classname="hello.springmvc.SpringmvcApplicationTests" time="0.479"/>
+  <system-out><![CDATA[15:32:01.598 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [hello.springmvc.SpringmvcApplicationTests]: SpringmvcApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:32:01.646 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration hello.springmvc.SpringmvcApplication for test class hello.springmvc.SpringmvcApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2024-06-11T15:32:01.827+09:00  INFO 98343 --- [springmvc] [    Test worker] h.springmvc.SpringmvcApplicationTests    : Starting SpringmvcApplicationTests using Java 17.0.8.1 with PID 98343 (started by junyeong in /Users/junyeong/GitHub/Spring-MVC/springmvc/springmvc)
+2024-06-11T15:32:01.828+09:00 DEBUG 98343 --- [springmvc] [    Test worker] h.springmvc.SpringmvcApplicationTests    : Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-06-11T15:32:01.828+09:00  INFO 98343 --- [springmvc] [    Test worker] h.springmvc.SpringmvcApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-06-11T15:32:02.235+09:00  INFO 98343 --- [springmvc] [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-06-11T15:32:02.370+09:00  INFO 98343 --- [springmvc] [    Test worker] h.springmvc.SpringmvcApplicationTests    : Started SpringmvcApplicationTests in 0.651 seconds (process running for 1.242)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
